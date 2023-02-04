@@ -16,11 +16,6 @@
     padding: 0;
 }
 
-.erro-icone,
-.texto-erro {
-	display: none;
-}
-
 body {
 	min-height: 100vh;
 	width: 100%;
@@ -100,8 +95,7 @@ body {
 	display: none;
 }
 
-.coluna-direita input,
-.coluna-direita button[type = submit] {
+.coluna-direita input, .coluna-direita button[type = submit] {
 	width: 100%;
 	height: 60px;
 	margin-bottom: 5px;
@@ -170,8 +164,11 @@ body {
 	top: 28%;
 }
 
-.grupo.error .texto-erro,
-.grupo.error .erro-icone {
+.erro-icone, .texto-erro {
+	display: none;
+}
+
+.grupo.error .texto-erro, .grupo.error .erro-icone {
 	display: block;
 }
 
@@ -179,6 +176,44 @@ body {
 	border: 2px solid var(--red);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
+
+body {
+	background-image: url(./images/bg-intro-desktop.png);
+}
+.container {
+	flex-direction: row;
+}
+.coluna-esquerda {
+	text-align: left;
+	padding-right: 50px;
+}
+.coluna-esquerda  h1 {
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+.coluna-esquerda  p {
+	font-size: 1.1rem;
+}
+.coluna-direita {
+	max-width: 500px;
+}
+.coluna-direita .box p {
+	font-size: 1.1rem;
+}
+.right-col .box {
+	padding: 20px;
+}
+.right-col .formulario-container {
+	padding: 40px;
+}
+.coluna-direita input::placeholder, .coluna-direita input {
+	font-size: 1.05rem;
+	height: 60px;
+}
+.coluna-direita .rodape {
+	margin-top: 20px;
+	font-size: .7rem;
+}
 
 }
