@@ -157,7 +157,7 @@ body {
 	font-weight: 500;
 }
 
-.error-icon {
+.erro-icone {
 	position: absolute;
 	top: 0;
 	right: 20px;
@@ -168,11 +168,11 @@ body {
 	display: none;
 }
 
-.grupo.error .texto-erro, .grupo.error .erro-icone {
+.grupo.erro .texto-erro, .grupo.erro .erro-icone {
 	display: block;
-}
+} 
 
-.grupo.error input {
+.grupo.erro input {
 	border: 2px solid var(--red);
 }
 
