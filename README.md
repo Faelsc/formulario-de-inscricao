@@ -7,7 +7,7 @@
 
 Obrigado por acessarem este Desafio do Front-end Mentor!
 
-[Frontend Mentor](https://www.frontendmentor.io) Os desafios do Front-End Mentor ajudam a melhorar suas habilidades em código através da criação de projetos realistas.
+Os desafios do [Frontend Mentor](https://www.frontendmentor.io) me ajudam a melhorar minhas habilidades em código através da criação de projetos realistas.
 
 **Para fazer este desafio eu usei um entendimento básico de HTML, CSS e JavaScript.**
 
